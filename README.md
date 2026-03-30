@@ -1,18 +1,25 @@
-## Getting Started
+## 📌 Sobre o projeto
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este foi meu primeiro projeto desenvolvido em Java, criado como parte de uma avaliação da disciplina de Programação Orientada a Objetos (POO).
 
-## Folder Structure
+A aplicação simula um sistema básico de gerenciamento de biblioteca, permitindo realizar operações como empréstimo de livros, além de exibir informações sobre o acervo.
 
-The workspace contains two folders by default, where:
+Os livros já estão previamente definidos no sistema, não sendo possível realizar cadastro dinâmico nesta versão. O foco do projeto está na aplicação dos conceitos fundamentais de POO, como criação de classes, objetos, encapsulamento e organização do código.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O principal objetivo deste projeto foi praticar e consolidar os conhecimentos iniciais em Java e Programação Orientada a Objetos, desenvolvendo a lógica de funcionamento de um sistema simples.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O sistema simula o funcionamento básico de uma biblioteca, permitindo gerenciar um conjunto de livros já definidos no código.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+A aplicação realiza operações como empréstimo de livros, alterando o estado de disponibilidade de cada item. Além disso, é possível visualizar informações sobre os livros e seu status atual dentro do sistema.
 
-## Dependency Management
+Toda a lógica foi construída utilizando conceitos de Programação Orientada a Objetos, com separação em classes responsáveis por representar os elementos principais da aplicação, como livros e usuários.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Este projeto representa meu primeiro contato prático com Java e POO, e por isso ainda possui limitações e pontos de melhoria.
+
+Pretendo evoluir este sistema futuramente, corrigindo erros, melhorando a organização do código e adicionando novas funcionalidades, como:
+- Cadastro dinâmico de livros
+- Interface mais interativa
+- Melhor controle de usuários
+- Persistência de dados
+
+O objetivo é transformar este projeto simples em uma aplicação mais completa ao longo do tempo.
