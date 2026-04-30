@@ -8,19 +8,19 @@ public class Main {
         Livro livro2 = new Livro();
         Livro livro3 = new Livro();
 
-        livro1.setTitulo("Como se tornar um programador");
-        livro1.setAutor("Matheus");
-        livro1.setAnoPublicacao(2026);
+        livro1.setTitulo("O Poder dos Quietos");
+        livro1.setAutor("Susan Cain");
+        livro1.setAnoPublicacao(2012);
         livro1.setDisponivel(true);
 
-        livro2.setTitulo("Os Lusiadas");
+        livro2.setTitulo("O Alienista");
         livro2.setAutor("Machado de Assis");
-        livro2.setAnoPublicacao(2002);
+        livro2.setAnoPublicacao(1882);
         livro2.setDisponivel(true);
 
-        livro3.setTitulo("Como aprender Java!");
-        livro3.setAutor("Josias");
-        livro3.setAnoPublicacao(1998);
+        livro3.setTitulo("Java para Leigos");
+        livro3.setAutor("Barry Burd");
+        livro3.setAnoPublicacao(2006);
         livro3.setDisponivel(true);
 
         int opcao = -1;
