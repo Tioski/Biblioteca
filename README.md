@@ -1,25 +1,57 @@
-## 📌 Sobre o projeto
+# 📚 Biblioteca
 
-Este foi meu primeiro projeto desenvolvido em Java, criado como parte de uma avaliação da disciplina de Programação Orientada a Objetos (POO).
+Sistema simples de biblioteca em **Java**, executado pelo terminal. Foi o meu primeiro projeto na linguagem, desenvolvido como avaliação da disciplina de **Programação Orientada a Objetos (POO)** no curso de Análise e Desenvolvimento de Sistemas (IFSC).
 
-A aplicação simula um sistema básico de gerenciamento de biblioteca, permitindo realizar operações como empréstimo de livros, além de exibir informações sobre o acervo.
+## ✨ Funcionalidades
 
-Os livros já estão previamente definidos no sistema, não sendo possível realizar cadastro dinâmico nesta versão. O foco do projeto está na aplicação dos conceitos fundamentais de POO, como criação de classes, objetos, encapsulamento e organização do código.
+O sistema trabalha com um acervo fixo de 3 livros e oferece um menu interativo:
 
-O principal objetivo deste projeto foi praticar e consolidar os conhecimentos iniciais em Java e Programação Orientada a Objetos, desenvolvendo a lógica de funcionamento de um sistema simples.
+| Opção | O que faz |
+|-------|-----------|
+| `1` - Acervo de Livros | Lista todos os livros com título, autor, ano de publicação e disponibilidade |
+| `2` - Consultar Livro | Busca um livro pelo título (sem diferenciar maiúsculas/minúsculas) e informa se está disponível |
+| `3` - Empréstimo | Empresta um livro do acervo e marca como indisponível |
+| `0` - Sair | Encerra o programa |
 
-O sistema simula o funcionamento básico de uma biblioteca, permitindo gerenciar um conjunto de livros já definidos no código.
+### Acervo inicial
 
-A aplicação realiza operações como empréstimo de livros, alterando o estado de disponibilidade de cada item. Além disso, é possível visualizar informações sobre os livros e seu status atual dentro do sistema.
+- *O Poder dos Quietos* — Susan Cain (2012)
+- *O Alienista* — Machado de Assis (1882)
+- *Java para Leigos* — Barry Burd (2006)
 
-Toda a lógica foi construída utilizando conceitos de Programação Orientada a Objetos, com separação em classes responsáveis por representar os elementos principais da aplicação, como livros e usuários.
+## 🗂️ Estrutura
 
-Este projeto representa meu primeiro contato prático com Java e POO, e por isso ainda possui limitações e pontos de melhoria.
+```
+Biblioteca/
+├── src/
+│   ├── Livro.java   # Classe que representa um livro (atributos privados + getters/setters)
+│   └── Main.java    # Menu interativo e lógica do sistema
+└── README.md
+```
 
-Pretendo evoluir este sistema futuramente, corrigindo erros, melhorando a organização do código e adicionando novas funcionalidades, como:
-- Cadastro dinâmico de livros
-- Interface mais interativa
-- Melhor controle de usuários
-- Persistência de dados
+## 🧠 Conceitos aplicados
 
-O objetivo é transformar este projeto simples em uma aplicação mais completa ao longo do tempo.
+- Classes e objetos
+- Encapsulamento (atributos `private` com getters e setters)
+- Estruturas de decisão e repetição (`switch`, `if/else`, `while`)
+- Entrada de dados com `Scanner`
+
+## ▶️ Como executar
+
+Pré-requisito: **JDK 8 ou superior** instalado.
+
+```bash
+# clonar o repositório
+git clone https://github.com/Tioski/Biblioteca.git
+cd Biblioteca
+
+# compilar
+javac -d out src/*.java
+
+# executar
+java -cp out Main
+
+
+---
+
+Feito por [Tioski](https://github.com/Tioski) 💻
